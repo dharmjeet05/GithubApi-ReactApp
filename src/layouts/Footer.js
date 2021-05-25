@@ -10,7 +10,15 @@ const Footer = () => {
       tag="footer"
       className="text-center bg-info text-white text-uppercase fixed-bottom p-3"
     >
-      Dharmjeet.com Github search App with Firebase
+      Developed by{" "}
+      <a
+        href="https://dharmjeet.com"
+        rel="noreferrer"
+        target="_blank"
+        className="text-white"
+      >
+        Dharmjeet.com
+      </a>
     </Container>
   );
 };
